@@ -1,0 +1,57 @@
+
+.header{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.second-part{
+    color: #dc2f02;
+}
+.header nav{
+    background-color: #dc2e02;
+    justify-content: space-around;
+    padding: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-links a:hover{
+    color: rgb(152, 172, 152)
+}
+.search input{
+    margin-right: 5px;
+    background-color: white;
+    border: 2px solid #dc2f02;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.search input:focus{
+    color: #dc2f02;
+    outline: #dc2e02;
+    border-radius: 10px;
+}
+.search button{
+    background-color: #dc2f02;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.search button:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: #dc2f02;
+}
+
+
