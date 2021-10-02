@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/Header';
-import Movies from './components/Movies/Movies';
+import Shop from './components/Shop/Shop';
 
 function App() {
   return (
     <div>
       <Header />
-      <Movies />
+      <Shop />
     </div>
   );
 }
