@@ -1,3 +1,4 @@
+import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css'
@@ -35,6 +36,9 @@ const NavBar = () => {
               </NavLink>
               <NavLink style={navLinkStyle} to="/contact">
                 Contact Us
+              </NavLink>
+              <NavLink to="/login">
+                <button className="login-button">Login</button>
               </NavLink>
             </div>
           </div>

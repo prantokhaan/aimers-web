@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css'
 import img from '../../images/image.svg';
 import { Link } from 'react-router-dom';
-import PopularCourses from '../CoursePreview/PopularCourses';
+import PopularCourses from '../PopularCourses/PopularCourses';
 
 const Home = () => {
     return (
@@ -28,7 +28,7 @@ const Home = () => {
             </h6>
             <Link to="/courses">
               <button className="primary-button px-3 py-2 text-bolder text-light mt-4 rounded-pill">
-                <i class="fas fa-play"></i> Start the Tour
+                <i className="fas fa-play"></i> Start the Tour
               </button>
             </Link>
           </div>

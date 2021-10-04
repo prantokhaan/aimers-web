@@ -24,13 +24,11 @@ const Footer = () => {
     }
     return (
       <div>
-        <div class="row mx-auto bg-color-1 text-light p-4">
-          <div class="col-md-3 footer-item w-25 px-5">
+        <div className="row mx-auto bg-color-1 text-light p-4">
+          <div className="col-md-3 footer-item w-25 px-5">
             <h2>About us</h2>
             <p className="text-capitalize text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-              velit lacus, consectetur maximus gravida vel, convallis quis
-              velit.{" "}
+              Aimers is an online learning platform which will give you the best teacher's classes among the country.
             </p>
             <div className="mt-3">
               <Link style={socialLinkStyle} to="#">
@@ -51,22 +49,22 @@ const Footer = () => {
             <h2>Quicklinks</h2>
             <ul>
               <li>
-                <Link style={quickLinkStyle} to="#">
+                <Link style={quickLinkStyle} to="/courses">
                   course
                 </Link>
               </li>
               <li>
-                <Link style={quickLinkStyle} to="#">
-                  story
+                <Link style={quickLinkStyle} to="/about">
+                  about us
                 </Link>
               </li>
               <li>
-                <Link style={quickLinkStyle} to="#">
-                  blog
+                <Link style={quickLinkStyle} to="/contact">
+                  contact us
                 </Link>
               </li>
               <li>
-                <Link style={quickLinkStyle} to="#">
+                <Link style={quickLinkStyle} to="/login">
                   login
                 </Link>
               </li>
@@ -76,13 +74,13 @@ const Footer = () => {
           <div className="col-md-3 footer-item w-25 px-5">
             <h2>Contact us</h2>
             <p>
-              <i className="fas fa-map-marker-alt"></i> MukundaBari, Jamalpur Sadar
+              <i className="fas fa-map-marker-alt"></i> Dhaka, Bangladesh
             </p>
             <p>
-              <i className="fas fa-phone"></i> +8801879597656
+              <i className="fas fa-phone"></i> +8801856789856
             </p>
             <p>
-              <i className="fas fa-envelope"></i> prantokhaan@gmail.com
+              <i className="fas fa-envelope"></i> aimersbd@gmail.com
             </p>
           </div>
           <div className="col-md-3 footer-item w-25 px-5 newsletter">

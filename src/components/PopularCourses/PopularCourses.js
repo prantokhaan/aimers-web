@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PopularCourse from '../PopularCourse/PopularCourse';
+import { Link } from "react-router-dom";
 import './PopularCourses.css'
 
 const PopularCourses = () => {
@@ -26,7 +27,11 @@ const PopularCourses = () => {
             ))}
           </div>
           <div className="text-end mb-3">
-            <button className="primary-button text-light">See All Courses</button>
+            <Link to="/courses">
+              <button className="primary-button text-light p-2 rounded">
+                <i className="fas fa-arrow-right"></i> See All Courses
+              </button>
+            </Link>
           </div>
           <hr />
         </div>

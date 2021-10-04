@@ -2,3 +2,15 @@
     font-size: 40px;
     font-family: 'Staatliches', cursive;
 }
+.login-button{
+    background-color: #eaa023;
+    border: 1px solid #eaa023;
+    padding: 6px 12px;
+    margin-left: 20px;
+    border-radius: 3px;
+    color: #2f363e;
+}
+.login-button:hover{
+    background-color: transparent;
+    color: #eaa023;
+}

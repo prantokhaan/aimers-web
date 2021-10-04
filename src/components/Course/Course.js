@@ -1,9 +1,10 @@
 import React from 'react';
 import Rating from 'react-rating';
-import './PopularCourse.css'
+import { Link } from 'react-router-dom';
 
-const PopularCourse = (props) => {
-    const {name, lectures, price, img, rating, totalTime, mentor, forPrep } = props.popular;
+const Course = (props) => {
+    const { name, lectures, price, img, rating, totalTime, mentor, forPrep } =
+      props.course;
     return (
       <div className="course-item col-md-3 border px-3 pt-3">
         <div className="course-img overflow-hidden rounded-3 transition">
@@ -30,9 +31,16 @@ const PopularCourse = (props) => {
           </p>
           <h4 className="text-capitalize text-center color-3">{name}</h4>
           <p className="color-4 text-center mt-3">{forPrep}</p>
+          <div className="text-center">
+            <Link to="/enroll">
+              <button className="primary-button text-light rounded pill  py-1 px-2 mb-3  fs-6">
+                <i className="fas fa-user-graduate"></i> Enroll Now
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     );
 };
 
-export default PopularCourse;
+export default Course;
