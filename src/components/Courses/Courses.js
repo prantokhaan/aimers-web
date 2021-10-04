@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Course from '../Course/Course';
 
+// Load and Set Data from Course Data 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
 
@@ -11,6 +12,7 @@ const Courses = () => {
         .then(data => setCourses(data))
     }, []);
     return (
+      // Course Section 
       <div className="container">
         <div className="section-title">
           <h2 className="text-center mb-5 mt-5">
@@ -23,6 +25,7 @@ const Courses = () => {
             ))}
           </div>
           <div className="text-end mb-3">
+            {/* Go Back Button  */}
             <Link to="/home">
               <button className="primary-button text-light p-2 rounded">
                 <i className="fas fa-arrow-left"></i> Go Back

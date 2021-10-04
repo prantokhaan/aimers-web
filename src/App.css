@@ -1,6 +1,23 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+/* Animation  */
+@keyframes spin01{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes zoomOutIn01{
+    0%,100%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+}
 /* Main Colors  */
 .color-1{
   color: #272343;
@@ -19,6 +36,7 @@
 .about-color{
   color: #ba68c8;
 }
+/* Background Colors  */
 .bg-color-1{
   background-color: #24292d;
 }
@@ -28,6 +46,7 @@
 .bg-color-3{
   background-color: rgba(65, 20, 20, 0);
 }
+/* Reusable Styles  */
 .shadow{
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
@@ -37,23 +56,7 @@ hr{
   margin: 2px auto;
 }
 
-/* Animation  */
-@keyframes spin01{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-@keyframes zoomOutIn01{
-    0%,100%{
-        transform: scale(1);
-    }
-    50%{
-        transform: scale(0.9);
-    }
-}
+
 .image{
   border: 1px solid black;
 }

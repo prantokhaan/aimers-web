@@ -7,6 +7,7 @@ import WhyUs from '../WhyUs/WhyUs';
 
 const About = () => {
     return (
+      // About Us Section 
       <div>
         <div className="my-3 container text-center">
           <div className="section-title text-center mb-3">
@@ -18,6 +19,7 @@ const About = () => {
             <div className="about-img ms-2">
               <img src={aboutImg} alt="" width="500px" />
             </div>
+            {/* Info of Aimers  */}
             <div className="mt-5 ms-5 p-2">
               <h4 className="color-1 mb-5">
                 <span className="about-color">AIMERS</span> is one of the
@@ -39,7 +41,7 @@ const About = () => {
             </div>
           </div>
         </div>
-
+        {/* Childrens of About Us  */}
         <WhyUs />
         <FunFacts />
         <br />

@@ -3,12 +3,15 @@ import PopularCourse from '../PopularCourse/PopularCourse';
 import { Link } from "react-router-dom";
 
 const PopularCourses = () => {
+  //  Load and Set Data 
     const [popularCourses, setPopularCourses] = useState([]);
+
     useEffect( () => {
         fetch('./miniCourseData.json')
         .then(res => res.json())
         .then(data => setPopularCourses(data));
-    }, [])
+    }, []);
+
     return (
       <div>
         <hr />
@@ -26,6 +29,7 @@ const PopularCourses = () => {
             ))}
           </div>
           <div className="text-end mb-3">
+            {/* All Course Button  */}
             <Link to="/courses">
               <button className="primary-button text-light p-2 rounded">
                 <i className="fas fa-arrow-right"></i> See All Courses

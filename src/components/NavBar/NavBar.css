@@ -2,6 +2,9 @@
     font-size: 40px;
     font-family: 'Staatliches', cursive;
 }
+.special-letter:hover{
+    color: #eaa023;
+}
 .login-button{
     background-color: #eaa023;
     border: 1px solid #eaa023;

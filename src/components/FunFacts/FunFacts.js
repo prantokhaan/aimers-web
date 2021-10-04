@@ -2,6 +2,8 @@ import React from 'react';
 import './FunFacts.css'
 
 const FunFacts = () => {
+
+  // Achievements 
     return (
       <div>
         <div className="fun-facts text-center my-4">
