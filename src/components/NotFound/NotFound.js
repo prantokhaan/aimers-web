@@ -1,10 +1,12 @@
 import React from 'react';
+import errorImg from '../../images/error.svg';
 
 const NotFound = () => {
     return (
         <div>
-            <h2>404 Error</h2>
-            <h4>Page Not Found</h4>
+            <div className="text-center">
+                <img src={errorImg} alt="" width="600px"/>
+            </div>
         </div>
     );
 };

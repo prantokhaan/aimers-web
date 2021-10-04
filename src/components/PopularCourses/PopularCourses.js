@@ -21,7 +21,7 @@ const PopularCourses = () => {
           <div className="row mb-4">
             {popularCourses.map((popular) => (
               <PopularCourse
-                key={popularCourses.key}
+                key={popular.key}
                 popular={popular}
               ></PopularCourse>
             ))}

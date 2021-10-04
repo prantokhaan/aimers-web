@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Login = () => {
     return (
       <div className="text-center bg-color-1 w-50 container">
-        <div class="mb-3 mt-5 py-5">
+        <div className="mb-3 mt-5 py-5">
           <h4 className="color-4 mb-4">Please Login</h4>
           <input
             type="email"
@@ -18,13 +18,13 @@ const Login = () => {
             id="exampleFormControlInput1"
             placeholder="your password"
           />
-          <Link to="/home">
-            <button className="primary-button w-50 py-1 rounded-pill text-light">
-              Login
+          <Link className="text-center" to="/home">
+            <button className="login-button ms-0 w-50 py-2  rounded-pill text-light">
+            Login
             </button>
           </Link>
         </div>
-        <div class="mb-3"></div>
+        <div className="mb-3"></div>
       </div>
     );
 };

@@ -33,7 +33,7 @@ const Contact = () => {
                   className="form-control mb-2"
                 />
               </div>
-              <div class="input-group">
+              <div className="input-group">
                 <textarea
                   placeholder="message"
                   className="form-control mb-2"

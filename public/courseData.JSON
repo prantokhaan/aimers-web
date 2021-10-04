@@ -1,6 +1,6 @@
 [
   {
-    "key": "math001",
+    "key": "1",
     "name": "Math Trigonometry",
     "price": 40,
     "lectures": 20,
@@ -11,7 +11,7 @@
     "for": "Engineering"
   },
   {
-    "key": "math002",
+    "key": "2",
     "name": "Math Integretion",
     "price": 30,
     "lectures": 15,
@@ -22,7 +22,7 @@
     "for": "Engineering"
   },
   {
-    "key": "chem001",
+    "key": "3",
     "name": "Organic Chemistry",
     "price": 100,
     "lectures": 50,
@@ -33,7 +33,7 @@
     "for": "Engineering"
   },
   {
-    "key": "phys001",
+    "key": "4",
     "name": "Physics - Force",
     "price": 48,
     "lectures": 16,
@@ -44,7 +44,7 @@
     "for": "Engineering"
   },
   {
-    "key": "phys002",
+    "key": "5",
     "name": "Physics - Ideal & Dynamic Gas",
     "price": 24,
     "lectures": 12,
@@ -55,7 +55,7 @@
     "for": "Engineering"
   },
   {
-    "key": "bio001",
+    "key": "6",
     "name": "Biology - Plant Reproduction",
     "price": 10,
     "lectures": 5,
@@ -66,7 +66,7 @@
     "for": "Medical"
   },
   {
-    "key": "bio002",
+    "key": "7",
     "name": "Biology - Tissue",
     "price": 15,
     "lectures": 8,
@@ -77,7 +77,7 @@
     "for": "Medical"
   },
   {
-    "key": "ban001",
+    "key": "8",
     "name": "Bangla - Oporichita",
     "price": 7,
     "lectures": 3,
@@ -88,7 +88,7 @@
     "for": "A & D Unit"
   },
   {
-    "key": "acc001",
+    "key": "9",
     "name": "Accounting Crash Course",
     "price": 49,
     "lectures": 30,
@@ -99,7 +99,7 @@
     "for": "C Unit"
   },
   {
-    "key": "chem003",
+    "key": "10",
     "name": "Chemistry Crash Course",
     "price": 80,
     "lectures": 45,
@@ -110,7 +110,7 @@
     "for": "A Unit"
   },
   {
-    "key": "phy003",
+    "key": "11",
     "name": "Physics Crash Course",
     "price": 72,
     "lectures": 67,
@@ -121,7 +121,7 @@
     "for": "A Unit"
   },
   {
-    "key": "eng001",
+    "key": "12",
     "name": "English Crash Course",
     "price": 63,
     "lectures": 44,
@@ -132,7 +132,7 @@
     "for": "All Unit"
   },
   {
-    "key": "ict001",
+    "key": "13",
     "name": "ICT C++ Special",
     "price": 33,
     "lectures": 21,
@@ -143,7 +143,7 @@
     "for": "Combined"
   },
   {
-    "key": "phy004",
+    "key": "14",
     "name": "Physics All Formula",
     "price": 5,
     "lectures": 3,
@@ -154,7 +154,7 @@
     "for": "A & Engineering"
   },
   {
-    "key": "geo004",
+    "key": "15",
     "name": "Geography Crash Course",
     "price": 59,
     "lectures": 39,
@@ -165,7 +165,7 @@
     "for": "B Unit"
   },
   {
-    "key": "ict003",
+    "key": "16",
     "name": "ICT HTML Lesson",
     "price": 34,
     "lectures": 15,
