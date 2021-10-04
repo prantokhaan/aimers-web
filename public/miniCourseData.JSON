@@ -1,0 +1,46 @@
+[
+  {
+    "key": "math001",
+    "name": "Math Trigonometry",
+    "price": 40,
+    "lectures": 20,
+    "rating": 4.9,
+    "img": "https://i.ibb.co/F6w6xPJ/math-tri.jpg",
+    "totalTime": 200,
+    "mentor": "Abid Hossain",
+    "forPrep": "Engineering"
+  },
+  {
+    "key": "math002",
+    "name": "Math Integretion",
+    "price": 30,
+    "lectures": 15,
+    "rating": 4.5,
+    "img": "https://i.ibb.co/mbCtKd7/Mathematics-forPrepmulas-written-on-the-blackboard-School-education-integral.jpg",
+    "totalTime": 160,
+    "mentor": "Siddharth Sheikh",
+    "forPrep": "Engineering"
+  },
+  {
+    "key": "chem001",
+    "name": "Organic Chemistry",
+    "price": 100,
+    "lectures": 50,
+    "rating": 4.8,
+    "img": "https://i.ibb.co/8Dbg3Nt/Chemical-tube-with-reaction-forPrepmula-in-light.jpg",
+    "totalTime": 600,
+    "mentor": "Istiaque Ahmed",
+    "forPrep": "Engineering"
+  },
+  {
+    "key": "phys001",
+    "name": "Physics - forPrepce",
+    "price": 48,
+    "lectures": 16,
+    "rating": 4.4,
+    "img": "https://i.ibb.co/r3xshmh/file-20171025-25516-g7rtyl.jpg",
+    "totalTime": 300,
+    "mentor": "Chinmoy Saha",
+    "forPrep": "Engineering"
+  }
+]
