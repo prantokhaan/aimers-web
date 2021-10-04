@@ -12,6 +12,7 @@ const Contact = () => {
           </div>
           <div className="contact-form w-100 text-capitalize mt-5 ms-5 p-5">
             <form>
+              <h6 className="color-4 mb-4">Please, Fill up these to Contact Us !</h6>
               <div className="input-group">
                 <input
                   type="text"
@@ -40,7 +41,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <Link to="/send">
-                <button className="primary-button mt-3 rounded-pill py-1 px-4 w-100 text-light">
+                <button className="login-button ms-0 mt-3 rounded-pill py-1 px-4 w-100 text-light">
                   Send
                 </button>
               </Link>

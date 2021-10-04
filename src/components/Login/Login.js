@@ -9,13 +9,11 @@ const Login = () => {
           <input
             type="email"
             className="form-control w-50 text-center mx-auto"
-            id="exampleFormControlInput1"
             placeholder="your e-mail address"
           />
           <input
             type="password"
             className="form-control w-50 text-center mx-auto my-3"
-            id="exampleFormControlInput1"
             placeholder="your password"
           />
           <Link className="text-center" to="/home">

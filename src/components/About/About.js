@@ -4,7 +4,6 @@ import aboutImg from '../../images/Online learning-amico.svg';
 import FunFacts from '../FunFacts/FunFacts';
 import PopularCourses from '../PopularCourses/PopularCourses';
 import WhyUs from '../WhyUs/WhyUs';
-import './About.css'
 
 const About = () => {
     return (

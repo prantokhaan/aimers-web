@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PopularCourse from '../PopularCourse/PopularCourse';
 import { Link } from "react-router-dom";
-import './PopularCourses.css'
 
 const PopularCourses = () => {
     const [popularCourses, setPopularCourses] = useState([]);
