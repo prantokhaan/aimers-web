@@ -26,9 +26,7 @@ const PopularCourses = () => {
             ))}
           </div>
           <div className="text-end mb-3">
-            <button className="primary-button text-light">
-              See All
-            </button>
+            <button className="primary-button text-light">See All Courses</button>
           </div>
           <hr />
         </div>
